@@ -4,6 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<!-- {% for item in menus %} -->
-<!--   {{ lists[0] }} -->
-<!-- {% endfor %} -->
+{% for item in site.menus %}
+  {{ item.lists }}
+{% endfor %}

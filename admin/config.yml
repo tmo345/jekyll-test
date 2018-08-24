@@ -43,10 +43,9 @@ collections: # A list of collections the CMS should be able to edit
     name: "menus"
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-    create: true
     files:
-      - label: "Meat Menu"
-        name: "meatMenu"
+      - label: "Meat"
+        name: "meat"
         file: "collections/_menus/meat.yml"
         fields:
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
