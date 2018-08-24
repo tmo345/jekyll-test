@@ -1,7 +1,9 @@
 ---
-title: Example
+title: Meat
 lists:
-  - description: Example
-    menu-item: Example
+  - description: Yum
+    menu-item: Chicken Biryani
+  - description: Also yum
+    menu-item: Saag Paneer
 ---
 
