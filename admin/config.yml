@@ -26,19 +26,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
-  # - name: "menus"
-  #   label: "Menus"
-  #   folder: "collections/_menus"
-  #   create: true
-  #   fields:
-  #     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-  #     - label: "Items"
-  #       name: "lists"
-  #       widget: "list"
-  #       fields:
-  #         - {label: "Menu Item", name: menu-item, widget: string}
-  #         - {label: Description, name: description, widget: text}
-  #         - {label: Image, name: thumbnail, widget: image}
+  - name: "menus2"
+    label: "Menus2"
+    folder: "_data"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - label: "Items"
+        name: "lists"
+        widget: "list"
+        fields:
+          - {label: "Menu Item", name: menu-item, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: Image, name: thumbnail, widget: image}
   - label: "Menus"
     name: "menus"
     fields:

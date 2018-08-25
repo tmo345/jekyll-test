@@ -5,5 +5,5 @@
 layout: home
 ---
 {% for item in site.menus %}
-  {{ item.lists }}
+  {{ item }}
 {% endfor %}
